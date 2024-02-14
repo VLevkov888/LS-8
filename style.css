@@ -8,7 +8,7 @@
     }
     body {
         margin: 0px 370px;
-        padding: 40px;
+        padding: 0px;
         background: rgb(206, 206, 206);
         position: absolute;
         font-family: League Spartan;
@@ -159,6 +159,7 @@
     }
     span::after {
         content: '';
+        background: #707070;
         position: absolute;
         display: block;
         width: 18%;
@@ -268,11 +269,9 @@
         right: 1029px;
         top: 678px;
         bottom: 2917px;
-        font-family: League Spartan;
         font-size: 32px;
         font-weight: 300;
         line-height: 29px;
-        letter-spacing: 0%;
         text-align: left; 
         background: black; 
         padding: 26px 74px 35px 73px;  
@@ -297,15 +296,12 @@
         box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
         background: white;
         padding: 13px 27px 31px 28px;
-    }
-    .header-btn__link1 {
         color: rgb(39, 39, 39);
         font-family: League Spartan;
         font-size: 32px;
         font-weight: 300;
         line-height: 186%;
-        letter-spacing: 0%;
-        text-align: center;               
+        text-align: center;
     }
 
     
